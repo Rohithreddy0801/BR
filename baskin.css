@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+}
+.nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    position:sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+}   
+.nav .logo{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nav .links{
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nav .y{
+    width: 100%;
+    height: 60px;
+}
+.logo img{
+    width:30px;
+    height: 40px;
+}
+.links img{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #f20c90;
+}
+.link a:hover{
+    box-shadow: 0px 0px 10px rgb(138, 13, 111);
+    color: palevioletred;
+}
+.z img{
+    width: 100%;
+    height:530px ;
+    background-size: cover;
+}
+.y .s{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.y .link{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.s button{
+    width: 100px;
+    height: 30px;
+    background-color:  #f20c90;
+    border-radius: 20px;
+}
+.s button:hover{
+    cursor: pointer;
+    width:105px;
+    height: 33px;
+}
+.a{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.a h1::first-letter{
+    color: #f20c90;
+}
+.b{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    /* background-color: #f20c90; */
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    width: 20%;
+    height: 200px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left:165px ;
+    transition: 0.5s;
+    text-align: center;
+}
+.c:hover{
+    height: 260px;
+    cursor: pointer;
+}
+.d{
+    width: 20%;
+    height: 200px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 500px;
+    transition: 0.5s;
+    text-align: center;
+}
+.d:hover{
+    height: 260px;
+    cursor: pointer;
+}
+.e{
+    width: 22%;
+    height: 200px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 830px;
+    transition: 0.5s;
+    text-align: center;
+}
+.e:hover{
+    height: 260px;
+    cursor: pointer;
+}
+.f{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.f button{
+    width: 100px;
+    height: 30px;
+    background-color: #f20c90;
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+}
+.f button:hover{
+    color:#f20c90;
+    cursor: pointer;
+    background-color: lightpink;
+}
+.g{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(30500deg,rgb(28, 192, 237),pink,white,violet);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.i img{
+    width: 300px;
+    height: 300px;
+    background-color: #f20c90;
+    transition:0.5s;
+}
+.i:hover img{
+    cursor: pointer;
+    width: 320px;
+    height: 320px;
+}
+.h h1::first-letter{
+    color: #f20c90;
+    font-size: larger;
+}
+.j{
+    height: 350px;
+    /* background-color: #f20c90; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.k{
+    width: 400px;
+    height: 300px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.k button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #f20c90;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+}
+.k button:hover{
+    cursor: pointer;
+    background-color: lightpink;
+    color: #f20c90;
+}    
+.k h1{
+    position: relative;
+    top: 10px;
+}
+.k h3{
+    position: relative;
+    top: 30px;
+}
+.k #a{
+    font-size: 40px;
+    position: relative;
+    right: 150px;
+    bottom: 120px;
+    rotate: -30deg;
+}
+.k #b{
+    font-size: 40px;
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+    rotate: 30deg;
+}
+.k #c{
+    font-size: 40px;
+    position: relative;
+    right: 150px;
+    bottom: 70px;
+    rotate: -30deg;
+}  
+.k #d{
+    font-size: 40px;
+    position: relative;
+    left: 200px;
+    bottom: 140px;
+    rotate: 30deg;
+}
+.k #e{
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    bottom: 210px;
+    rotate: -30deg;
+}        
+.l{
+    width: 400px;
+    height: 300px;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.l button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #f20c90;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+}
+.l button:hover{
+    cursor: pointer;
+    background-color: lightpink;
+    color: #f20c90;
+}
+.l h1{
+    position: relative;
+    top: 10px;
+}
+.l h3{
+    position: relative;
+    top: 30px;
+}
+.l #a{
+    font-size: 40px;
+    position: relative;
+    right: 150px;
+    bottom: 120px;
+    rotate: -30deg;
+}
+.l #b{
+    font-size: 40px;
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+    rotate: 30deg;
+}
+.l #c{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    bottom: 155px;
+}
+.l #d{
+    font-size: 40px;
+    position: relative;
+    left: 215px;
+    bottom: 135px;
+    rotate: 30deg;
+} 
